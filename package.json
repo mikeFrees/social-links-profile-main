@@ -1,0 +1,33 @@
+{
+  "name": "social-links-profile-main",
+  "version": "1.0.0",
+  "description": "A social links page ",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "watch": "sass --watch src/styles/main.scss public/styles/style.css",
+    "format": "prettier --write \"js/**/*.js\"",
+    "compile": "sass src/styles/main.scss public/styles/style.css",
+    "prefix": "postcss public/styles/style.css --use autoprefixer -o public/styles/style.css",
+    "minify": "postcss public/styles/style.css --use cssnano -o public/styles/style.css",
+    "prepare": "npm run compile && npm run prefix && npm run minify &&  npm run format && npm run lint",
+    "purgeCSS": "purgecss --css public/styles/style.css --output public/styles/style.css --content *.html,**/*.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mikeFrees/social-links-profile-main"
+  },
+  "author": "Mike Frees <mike_frees@hotmail.com> (https://www.linkedin.com/in/mike-frees/)",
+  "license": "ISC",
+  "browserslist": "last 4 versions",
+  "devDependencies": {
+    "autoprefixer": "^10.4.15",
+    "cssnano": "^6.0.1",
+    "eslint": "^8.50.0",
+    "postcss": "^8.4.28",
+    "postcss-cli": "^10.1.0",
+    "prettier": "^3.0.3",
+    "purgecss": "^5.0.0",
+    "sass": "^1.65.1"
+  }
+}

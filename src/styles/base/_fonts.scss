@@ -1,0 +1,13 @@
+// -----------------------------------------------------------------------------
+//  #Fonts
+//
+// This file contains all @font-face declarations, if any.
+// -----------------------------------------------------------------------------
+
+@font-face {
+    font-family: 'Overpass', sans-serif;
+    src:
+      local("Overpass"),
+      url("../fonts/Overpass/Overpass-VariableFont_wght.ttf") format("truetype"),
+      url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+  }
