@@ -5,15 +5,14 @@
 // -----------------------------------------------------------------------------
 
 // colors
-$color-button-hover: #ffffff;
-$color-score-hover: #fb7413;
-$color-score-active: #959eac;
-$color-score: #7c8798;
-$color-card: #252d37;
-$color-background: #121417;
+$color-text: #ffffff;
+$color-text-highlight: #c5f82a;
+$color-button: #333333;
+$color-card: #1f1f1f;
+$color-background: #141414;
 
 //fonts
-$font-stack: "Overpass", sans-serif, Arial, Helvetica, sans-serif;
+$font-stack: "Inter", sans-serif, Arial, Helvetica, sans-serif;
 
 //media queries
 $breakpoint-mobile: 800px;

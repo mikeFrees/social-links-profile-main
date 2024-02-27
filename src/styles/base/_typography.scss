@@ -3,3 +3,17 @@
 //
 // This file contains typography CSS.
 // -----------------------------------------------------------------------------
+
+* {
+    font: 700 1rem/2rem $font-stack;
+    color: $color-text;
+    margin: 0;
+}
+
+h2 {
+  color: $color-text-highlight;
+}
+
+p {
+  font-weight: 500;
+}

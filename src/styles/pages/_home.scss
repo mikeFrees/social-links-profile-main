@@ -4,3 +4,15 @@
 // This file contains styles that are specific to the home page.
 // -----------------------------------------------------------------------------
 
+body {
+  background: $color-background;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+img {
+  height: 50%;
+}

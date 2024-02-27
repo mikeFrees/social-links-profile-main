@@ -1,14 +1,14 @@
 .attribution { 
-    font-size: 1.3rem; 
-    font-weight: 700;
-    color: $color-score;
+    font-size: 1rem; 
+    font-weight: 500;
+    color: $color-text;
     text-align: center;
     background-color: $color-card;
     border-radius: 10px;
-    padding: 2rem;
+    padding: 1rem;
 }
 
 .attribution a { 
-    color: $color-score-hover;
+    color: $color-text-highlight;
     margin: 0; 
 }

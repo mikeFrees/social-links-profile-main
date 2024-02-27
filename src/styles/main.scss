@@ -24,12 +24,14 @@
 // 4. Layout-related sections
 @import
   'layout/header',
+  'layout/body',
   'layout/footer';
 
 // 5. Components
 @import
   'components/button',
-  'components/attribution';
+  'components/attribution',
+  'components/card';
 
 // 6. Page-specific styles
 @import
