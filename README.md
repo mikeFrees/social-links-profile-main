@@ -39,7 +39,6 @@ My solution:
 ### Links
 
 - [Solution URL](https://github.com/mikeFrees/social-links-profile-main)
-- [Live Site URL](https://mikes-faq-section.netlify.app/)
 
 ## My process
 
@@ -48,14 +47,6 @@ My solution:
 - Semantic HTML5 markup
 - CSS custom properties
 - scss with 7 - 1 file structure
-
-### What I learned
-
-- 
-
-### Continued development
-
-
 
 ## Author
 
